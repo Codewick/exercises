@@ -1,0 +1,9 @@
+
+def temp(tem)
+puts "Enter temperature :"
+tem = gets.to_i
+if tem > 20
+puts ("wear shorts")
+else
+puts ("wear pants")
+end
